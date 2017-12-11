@@ -1,3 +1,5 @@
+import devicesize from '../config/devicesize';
+
 export const bounceIn = {
   0: {
     opacity: 0,
@@ -24,18 +26,18 @@ export const bounceIn = {
 
 export const bounceInUp = {
   0: {
-    opacity: 0,
-    translateY: 800,
+    opacity: 1,
+    translateY: devicesize.DEVICE_HEIGHT * 0.4,
   },
   0.6: {
     opacity: 1,
-    translateY: -25,
+    translateY: 0,
   },
   0.75: {
-    translateY: 10,
+    translateY: 0,
   },
   0.9: {
-    translateY: -5,
+    translateY: 0,
   },
   1: {
     translateY: 0,
