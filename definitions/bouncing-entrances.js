@@ -31,16 +31,16 @@ export const bounceInUp = {
   },
   0.6: {
     opacity: 1,
-    translateY: 0,
+    translateY: devicesize.DEVICE_HEIGHT * 0.095,
   },
   0.75: {
-    translateY: 0,
+    translateY: devicesize.DEVICE_HEIGHT * 0.095,
   },
   0.9: {
-    translateY: 0,
+    translateY: devicesize.DEVICE_HEIGHT * 0.095,
   },
   1: {
-    translateY: 0,
+    translateY: devicesize.DEVICE_HEIGHT * 0.095,
   },
 };
 
